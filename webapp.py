@@ -5,6 +5,7 @@ Created using Streamlit
 
 Run: streamlit run app.py
 """
+#from st_audiorec import st_audiorec
 from st_audiorec import st_audiorec
 import streamlit as st
 import torch
@@ -817,7 +818,7 @@ def main():
         st.header("🎙️ Record Your Voice")
         st.write("Click the microphone below to record your speech:")
 
-        from st_audiorec import st_audiorec
+        
 
         audio_data = st_audiorec()
 
