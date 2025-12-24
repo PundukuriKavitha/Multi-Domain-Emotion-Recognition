@@ -1,8 +1,12 @@
-# PyTorch (choose one based on your system)
-# For CUDA 11.8:
-torch>=2.0.0
-torchaudio>=2.0.0
-torchvision>=0.15.0
+streamlit
+torch
+numpy
+librosa
+transformers
+scikit-learn
+plotly
+streamlit-audiorec
+
 
 # For CPU only, use:
 # torch>=2.0.0
