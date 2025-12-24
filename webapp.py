@@ -6,7 +6,7 @@ Created using Streamlit
 Run: streamlit run app.py
 """
 #from st_audiorec import st_audiorec
-from st_audiorec import st_audiorec
+from streamlit_audiorec import st_audiorec
 import streamlit as st
 import torch
 import numpy as np
